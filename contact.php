@@ -13,7 +13,33 @@ include('inc/header.php'); ?>
 
 		<form method="post">
 
-			<label for="name">Name</label><input type="text" name="name" id="name"> 
+			<table>
+				<tr>
+					<th>
+						<label for="name">Name</label>
+					</th>
+					<td>
+						<input type="text" name="name" id="name">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="email">Email</label>
+					</th>
+					<td>
+						<input type="text" name="email" id="email">
+					</td>
+					<tr>
+					<th>
+						<label for="message">Message</label>
+					</th>
+					<td>
+						<textarea name="message" id="message"></textarea>
+					</td>
+				</tr>
+				</tr>
+			</table>
+			<input type="submit" value="Send">
 
 		</form>
 
