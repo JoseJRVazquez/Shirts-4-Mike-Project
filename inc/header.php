@@ -1,3 +1,4 @@
+<!--This is the header of each page, and includes the PHP code to produce the title of the page. In addition it includes the stylesheet incformation-->
 <html>
 <head>
 	<title><?php echo $pageTitle; ?></title>
@@ -12,7 +13,7 @@
 		<div class="wrapper">
 
 			<h1 class="branding-title"><a href="./">Shirts 4 Mike</a></h1>
-
+<!--This is the navigaiton section-->
 			<ul class="nav">
 				<li class="shirts <?php if ($section == "shirts") { echo "on"; }  ?>"><a href="shirts.php">Shirts</a></li>
 				<li class="contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
