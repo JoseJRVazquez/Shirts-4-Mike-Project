@@ -11,7 +11,7 @@ include("inc/header.php");
 
 		<h1>Contact</h1>
 
-		<p>Thanks for the email</p>
+		<p>Thanks for the email! I&rsquo;ll be in touch shortly.</p>
 
 	</div>
 </div>
