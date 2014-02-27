@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// Still to do is the Send Email protocol
 
 	//This forwards the page to the thank you page
-	header("Location: contact-thanks.php");
+	header("Location: contact.php");
 	exit;
 }
 ?>
