@@ -29,46 +29,47 @@ include('inc/header.php'); ?>
 
 		<h1>Contact</h1>
 
-		<?php if ($_GET["status"] == "thanks") { ?>
+		<?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
 			<p>Thanks for the email! I&rsquo;ll be in touch shortly.</p>
-		<?php } ?>
+		<?php } else { ?>
 
-		<p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
+			<p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
-		<!--This is the Contact Form for this page-->
+			<!--This is the Contact Form for this page-->
 
-		<form method="post" action="contact.php">
+			<form method="post" action="contact.php">
 
-			<table>
-				<tr>
-					<th>
-						<label for="name">Name</label>
-					</th>
-					<td>
-						<input type="text" name="name" id="name">
-					</td>
-				</tr>
-				<tr>
-					<th>
-						<label for="email">Email</label>
-					</th>
-					<td>
-						<input type="text" name="email" id="email">
-					</td>
+				<table>
 					<tr>
-					<th>
-						<label for="message">Message</label>
-					</th>
-					<td>
-						<textarea name="message" id="message"></textarea>
-					</td>
-				</tr>
-				</tr>
-			</table>
-			<input type="submit" value="Send">
+						<th>
+							<label for="name">Name</label>
+						</th>
+						<td>
+							<input type="text" name="name" id="name">
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="email">Email</label>
+						</th>
+						<td>
+							<input type="text" name="email" id="email">
+						</td>
+						<tr>
+						<th>
+							<label for="message">Message</label>
+						</th>
+						<td>
+							<textarea name="message" id="message"></textarea>
+						</td>
+					</tr>
+					</tr>
+				</table>
+				<input type="submit" value="Send">
 
-		</form>
+			</form>
 
+		<?php } ?>
 </div>
 	
 </div>
