@@ -29,6 +29,10 @@ include('inc/header.php'); ?>
 
 		<h1>Contact</h1>
 
+		<?php if ($_GET["status"] == "thanks") { ?>
+			<p>Thanks for the email! I&rsquo;ll be in touch shortly.</p>
+		<?php } ?>
+
 		<p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
 		<!--This is the Contact Form for this page-->
