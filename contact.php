@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-// This code establishes the variables of the email form
+	// This code establishes the variables of the email form
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$message = $_POST["message"];
@@ -11,10 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$email_body = $email_body . "Email: " . $email . "\n";
 	$email_body = $email_body . "Message: " . $message;
 
-// Still to do is the Send Email protocol
+	// Still to do is the Send Email protocol
 
-//This forwards the page to the thank you page
-header("Location: contact-thanks.php");
+	//This forwards the page to the thank you page
+	header("Location: contact-thanks.php");
+	exit;
 }
 ?>
 <?php 
