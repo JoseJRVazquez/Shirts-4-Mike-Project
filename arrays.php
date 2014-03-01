@@ -1,13 +1,14 @@
 <?php 
-
-$flavors = array("Vanilla", "Chocolate", "Strawberry")
+//testing arrays
+$flavors = array("Vanilla", "Chocolate", "Strawberry", "Cookie Dough");
 
 
 ?><pre>
 <?php echo "We have " . count($flavors) . " flavors available. Here's a list:"; 
 
-foreach ($flavors)
-
+foreach($flavors as $flavor) {
+	echo $flavor . "\n";
+}
 ?>
 
 </pre>
