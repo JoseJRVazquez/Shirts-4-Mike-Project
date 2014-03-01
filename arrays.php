@@ -1,5 +1,5 @@
 <?php 
-//testing arrays
+
 $flavors = array("Vanilla", "Chocolate", "Strawberry", "Cookie Dough");
 
 
