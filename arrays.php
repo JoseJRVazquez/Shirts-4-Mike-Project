@@ -1,5 +1,5 @@
 <?php 
-//array variables
+//array variables in parenthesis
 $flavors = array("Vanilla", "Chocolate", "Strawberry", "Cookie Dough");
 
 
