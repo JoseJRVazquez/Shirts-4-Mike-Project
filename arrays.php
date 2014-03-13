@@ -2,7 +2,7 @@
 //array variables line
 $flavors = array("Vanilla", "Chocolate", "Strawberry", "Cookie Dough");
 
-
+//Foreach statement
 ?><pre>
 <?php echo "We have " . count($flavors) . " flavors available. Here's a list:"; 
 
