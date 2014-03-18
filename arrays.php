@@ -8,7 +8,7 @@ $flavors = array("Vanilla", "Chocolate", "Strawberry", "Cookie Dough");
 
 foreach($flavors as $flavor) {
 	echo $flavor . "\n";
-}
+} //end line
 ?>
 
 </pre>
